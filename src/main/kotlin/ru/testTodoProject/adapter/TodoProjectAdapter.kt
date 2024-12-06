@@ -47,7 +47,7 @@ class TodoProjectAdapter(
         return response
     }
 
-    @Step("[POST] Create Todo with id = {todoRequest.id}")
+    @Step("[POST] Create Todo with id = {todo.id}")
     fun postTodo(todo: Todo) = RestAssured
         .given()
         .spec(restAssuredConfiguration.requestSpec)

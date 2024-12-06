@@ -1,8 +1,8 @@
-# TodoApp Test Project
+# Test Todo Project
 
 ## Overview
 
-Welcome to the TodoApp Project! This application is built using a modern tech stack to efficiently manage tasks. Here’s a quick overview of the technologies used in this project:
+Welcome to the Test Todo Project! Here’s a quick overview of the technologies used in this project:
 
 - Kotlin: 2.0.10
 - Java: 21
@@ -48,7 +48,6 @@ Logging of requests, responses, and assertions as separate steps for better debu
 ### Load Testing
 A performance testing scenario for the POST endpoint is written using Gatling. Load is applied smoothly to avoid immediate stress, allowing the application to properly "warm up."
 
-You can execute load tests using:
 1. You can execute load tests using:
    ```bash
    gradle gatlingRun
