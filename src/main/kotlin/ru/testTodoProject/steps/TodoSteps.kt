@@ -6,8 +6,6 @@ import io.qameta.allure.Step
 import ru.testTodoProject.adapter.TodoProjectAdapter
 import ru.testTodoProject.generator.TodoGenerator
 import ru.testTodoProject.model.Todo
-import ru.testTodoProject.utils.RandomUtil.randomEngLetters
-import ru.testTodoProject.utils.RandomUtil.randomLong
 
 class TodoSteps(
     private val objectMapper: ObjectMapper,

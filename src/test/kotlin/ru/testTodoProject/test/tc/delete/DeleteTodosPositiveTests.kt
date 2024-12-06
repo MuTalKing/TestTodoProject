@@ -6,7 +6,6 @@ import io.qameta.allure.Story
 import org.assertj.core.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
-import ru.testTodoProject.generator.TodoGenerator
 import ru.testTodoProject.adapter.TodoProjectAdapter
 import ru.testTodoProject.steps.TodoSteps
 import ru.testTodoProject.test.common.BaseTest
@@ -16,7 +15,6 @@ import ru.testTodoProject.test.common.BaseTest
 @Story("Positive tests")
 class DeleteTodosPositiveTests @Autowired constructor(
     private val todoProjectAdapter: TodoProjectAdapter,
-    private val todoGenerator: TodoGenerator,
     private val todoSteps: TodoSteps
 ) : BaseTest(todoProjectAdapter = todoProjectAdapter) {
 
